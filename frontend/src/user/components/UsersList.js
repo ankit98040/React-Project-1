@@ -9,7 +9,7 @@ const UsersList = props => {
         </div>
         );
     }
-    return <ul>
+    return (<ul className="users-list">
         {props.items.map(user => (
              <UserItem 
              key={user.id} 
@@ -19,7 +19,7 @@ const UsersList = props => {
              placeCount={user.places}
               />
         ))}
-    </ul>;
+    </ul>);
 };
 
 export default UsersList;
