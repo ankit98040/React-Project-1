@@ -1,7 +1,10 @@
 import React from 'react';
+import './UsersList.css';
 
 const UsersList = props => {
-    return <h1>Userslist</h1>
+    if (props.items.length === 0) {
+        return <div className="center"></div>
+    }
 };
 
 export default UsersList;
