@@ -6,7 +6,7 @@ const Users = () => {
         {
             id: 'u1',
             name: 'Ankit Pramanik', 
-            image: 'https://mcmscache.epapr.in/post_images/website_197/post_16721229/thumb.jpg' , 
+            image: 'https://magarticles.magzter.com/articles/9780/364628/5d5152a64f29e/Rashmika-Mandanna-Racing-To-The-Top.jpg' , 
             places: 3
         }
     ];
