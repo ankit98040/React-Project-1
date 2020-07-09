@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './UserItem.css';
 import Avatar from '../../shared/components/UIElements/Avatar'
 
