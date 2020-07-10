@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link} from 'react-router-dom'
 
 import './MainNavigation.css';
 import MainHeader from './MainHeader';
@@ -10,7 +11,12 @@ return <MainHeader>
         <span />
         <span />
     </button>
-    <h1 className="main-navigation__title"></h1>
+    <h1 className="main-navigation__title">
+        <Link to="/">Your Places</Link>
+        </h1>
+    <nav>
+        ...
+    </nav>
 </MainHeader>;
 };
 
