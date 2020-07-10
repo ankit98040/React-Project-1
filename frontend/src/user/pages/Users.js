@@ -6,7 +6,7 @@ const Users = () => {
         {
             id: 'u1',
             name: 'Ankit Pramanik', 
-            image: 'https://www.filmibeat.com/img/315x100x396/popcorn/profile_photos/rashmika-mandanna-20190705125340-37195.jpg?auto=compress' , 
+            image: 'https://static.toiimg.com/thumb/msid-68020090,imgsize-70873,width-800,height-600,resizemode-75/68020090.jpg' , 
             places: 3
         }
     ];
