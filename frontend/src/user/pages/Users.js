@@ -1,12 +1,13 @@
 import React from 'react';
 import UsersList from '../components/UsersList';
 
+
 const Users = () => {
     const USERS = [
         {
             id: 'u1',
             name: 'Ankit Pramanik', 
-            image: 'https://static.toiimg.com/thumb/msid-68020090,imgsize-70873,width-800,height-600,resizemode-75/68020090.jpg' , 
+            image: 'https://szcdn.ragalahari.com/aug2018/starzone/rashmika-mandanna-photos/rashmika-mandanna-photos1t.jpg' , 
             places: 3
         }
     ];
